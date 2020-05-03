@@ -26,7 +26,7 @@ public class Ui {
                 case 5 :
                     return Choice.LOAD;
                     default:
-                    return Choice.ERROR;
+                        return Choice.ERROR;
 
             }
         }
