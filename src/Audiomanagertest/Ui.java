@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ui {
     public Choice menu(){
         Choice returnChoice;
-        System.out.println("0. Exit" + "1. Add something to the process" + "  2.Remove something from the process" + " 3. Display the process" );
+        System.out.println("0. Exit" + " 1. Add something to the process" + "  2.Remove something from the process" + " 3. Display the process" );
         int choice;
         Scanner scanner = new Scanner(System.in);
         try{
