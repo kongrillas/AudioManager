@@ -1,6 +1,6 @@
 package Audiomanagertest;
 
-public  class Media {
+public abstract class Media {
     private String name;
     private String creator;
     private String description;
